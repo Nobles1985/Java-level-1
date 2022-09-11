@@ -4,7 +4,6 @@ public class Dogs extends Animals{
     private static int enduranceRunDog = 500;
     private static int enduranceSwimDog = 10;
     private static int countDog;
-
     public Dogs(String name, int endRun, int endSwim){
         super(name, endRun, endSwim);
         countDog++;
@@ -15,4 +14,5 @@ public class Dogs extends Animals{
     public static int getEnduranceSwimDog() {
         return enduranceSwimDog;
     }
+    public static int getCountDog(){return countDog;}
 }
