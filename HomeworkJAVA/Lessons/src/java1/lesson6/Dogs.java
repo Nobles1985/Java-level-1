@@ -8,11 +8,7 @@ public class Dogs extends Animals{
         super(name, endRun, endSwim);
         countDog++;
     }
-    public static int getEnduranceRunDog() {
-        return enduranceRunDog;
-    }
-    public static int getEnduranceSwimDog() {
-        return enduranceSwimDog;
-    }
+    public static int getEnduranceRunDog(){return enduranceRunDog;}
+    public static int getEnduranceSwimDog(){return enduranceSwimDog;}
     public static int getCountDog(){return countDog;}
 }
